@@ -1,0 +1,28 @@
+body {
+    background-color: lightgray !important;
+}
+html * {
+    font-family: Outfit;
+}
+p {
+    font-size: 15px;
+} 
+.card {
+    width: 85vw;
+    margin: 50px auto;
+    border-radius:  15px !important;
+} 
+.card-img-top {
+    border-radius: 25px 25px !important;
+}
+/* mobile : 375px */
+/* Desktop : 1440px */
+@media screen and (min-width: 425px)  {
+    .card {
+        width: 30vw !important;
+    }
+    /* .attribution {
+        position: fixed;
+        top: 0;
+    } */
+}
